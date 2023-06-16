@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.label{
+margin-top: 10px;
+}
+
+
+form{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+form .group{
+    display: flex;
+    flex-direction: column;
+}
+
+.group{
+    margin-top: -50px;
+}
+.wrapper{ 
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+ form .group input{
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,.3);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form input[type=submit]{
+    height: 40px;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.anchor a:link {
+    color: red;
+    text-decoration: none;
+  }
+
+  .anchor a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .anchor a:hover {
+    color: hotpink;
+    text-decoration: dotted;
+  }
+  
+  .anchor a:active {
+    color: blue;
+    text-decoration: dotted;
+  }
+
+  .table{
+    border-collapse: collapse;
+    width: 90%;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  table th {
+    background-color: #ff9800;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+  }
+
+  table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover td {
+    background-color: #ffedcc;
+  }
+
+  table td {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+  }
+
+  .tr{
+    text-align: center;
+  }
